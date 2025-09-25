@@ -1,0 +1,219 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins, sans-serif;
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url("/assets/Poppins/Poppins-Regular.ttf");
+}
+
+@font-face {
+  font-family: Poppins-ExtraBold;
+  src: url("/assets/Poppins/Poppins-ExtraBold.ttf");
+}
+
+@font-face {
+  font-family: Poppins-ExtraLight;
+  src: url("/assets/Poppins/Poppins-ExtraLight.ttf");
+}
+
+body {
+  background-color: #18161B;
+  opacity: 74%;
+}
+
+header {
+  background-image: url("/assets/BANNER.png");
+  display: flex;
+  flex-direction: column;
+  height: 73dvh;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 2rem;
+}
+
+nav ul {
+  display: flex;
+  gap: 4rem;
+  color: white;
+  font-size: 30px;
+}
+
+#BotaoAssistir {
+  cursor: pointer;
+}
+
+.texthome {
+  cursor: pointer;
+  font-family: Poppins-ExtraBold;
+}
+
+.textoCima {
+  cursor: pointer;
+}
+
+.Partedois{
+  width: 20rem;
+  display: flex;
+  right: -2rem;
+}
+
+#lupa {
+  height: 30px;
+  width: 30px;
+  right: 45px;
+  bottom: -5px;
+  position: relative;
+}
+
+.search-input {
+  display: flex;
+  left: 1rem;
+}
+
+nav input[id="pesquisa"]{
+  display: flex;
+  color: white;
+  text-align: center;
+  font-size: 22px;
+  border-color: white;
+  border-radius: 3rem;
+  background-color: transparent;
+  width: 15rem;
+  height: 2.6rem;
+}
+
+nav img[id="PerfilFoto"]{
+  display: flex;
+  height: 39px;
+  
+}
+
+.header-sobreposto {
+  height: 100%;
+  padding: 2rem 7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.firstplace {
+  width: 20vw;
+  height: 8vw;
+}
+
+.Container {
+  justify-items: center;
+  align-content: flex-end;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.Container button {
+  width: 12dvw;
+  height: 3rem;
+  border-radius: 0.5rem;
+  border: none;
+  font-family: Poppins-ExtraBold;
+  font-weight: 800;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1rem;
+}
+
+.Container h3 {
+  font-family: Poppins-ExtraLight;
+}
+
+.Container img {
+  width: 1rem;
+  height: 1rem;
+}
+
+.Container img[class="Play"] {
+  height: 20px;
+}
+
+.title h2 {
+  padding-top: 2rem;
+  color: #ffffff;
+  width: 20rem;
+  text-align: right;
+}
+
+.title h3 {
+  padding-bottom: 1rem;
+  color: #ffffff;
+  width: 97%;
+  text-align: right;
+}
+
+.ImagensDes {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  position: relative;
+}
+
+.ImagensDes img[class="AnimeDes"] {
+  cursor: pointer;
+}
+
+.ImagensAss {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.ImagensAss img[class="AnimeAss"] {
+  cursor: pointer;
+}
+
+.setaEsquerda {
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.setaDireita {
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.title2 h2 {
+  color: #ffffff;
+  width: 14rem;
+  text-align: right;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.title3 h2 {
+  color: #ffffff;
+  width: 15rem;
+  text-align: right;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.ImagensGos {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.ImagensGos img[class="AnimeGos"] {
+  cursor: pointer;
+}
